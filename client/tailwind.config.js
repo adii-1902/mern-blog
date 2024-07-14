@@ -11,5 +11,7 @@ export default {
     extend: {},
   },
   // eslint-disable-next-line no-undef
-  plugins: [flowbite.plugin(), require('tailwind-scrollbar'),],
+  plugins: [flowbite.plugin(),
+  require('tailwind-scrollbar'),
+  ],
 };
