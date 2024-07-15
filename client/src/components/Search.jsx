@@ -8,7 +8,7 @@ export default function Search() {
     const [sidebarData, setSidebarData] = useState({
         searchTerm: '',
         sort: 'desc',
-        category: 'uncategorized',
+        category: 'Uncategorized',
     });
     const [posts, setPosts] = useState([]);
     const [loading, setLoading] = useState(false);
@@ -61,7 +61,7 @@ export default function Search() {
             setSidebarData({ ...sidebarData, sort: order });
         }
         if (e.target.id === 'category') {
-            const category = e.target.value || 'uncategorized';
+            const category = e.target.value || 'Uncategorized';
             setSidebarData({ ...sidebarData, category });
         }
     };
