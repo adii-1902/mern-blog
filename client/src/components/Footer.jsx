@@ -23,15 +23,17 @@ export default function FooterComponent() {
                             <Footer.Title title="About" />
                             <Footer.LinkGroup col>
                                 <Footer.Link
-                                    href="#"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
-                                    Link 1
+                                    href="/about"
+                                // target="_blank"
+                                // rel="noopener noreferrer"
+                                >
+                                    NodeNinja's Blog
                                 </Footer.Link>
                                 <Footer.Link
                                     href="#"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
+                                // target="_blank"
+                                // rel="noopener noreferrer"
+                                >
                                     Link 2
                                 </Footer.Link>
                             </Footer.LinkGroup>
@@ -41,14 +43,16 @@ export default function FooterComponent() {
                             <Footer.LinkGroup col>
                                 <Footer.Link
                                     href="#"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
+                                // target="_blank"
+                                // rel="noopener noreferrer"
+                                >
                                     Github
                                 </Footer.Link>
                                 <Footer.Link
                                     href="#"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
+                                // target="_blank"
+                                // rel="noopener noreferrer"
+                                >
                                     Discord
                                 </Footer.Link>
                             </Footer.LinkGroup>
@@ -58,14 +62,16 @@ export default function FooterComponent() {
                             <Footer.LinkGroup col>
                                 <Footer.Link
                                     href="#"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
+                                // target="_blank"
+                                // rel="noopener noreferrer"
+                                >
                                     Privacy Policy
                                 </Footer.Link>
                                 <Footer.Link
                                     href="#"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
+                                // target="_blank"
+                                // rel="noopener noreferrer"
+                                >
                                     Terms &amp; Conditions
                                 </Footer.Link>
                             </Footer.LinkGroup>

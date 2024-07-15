@@ -74,6 +74,7 @@ export default function DashProfile() {
     };
     const handleSubmit = async (e) => {
         e.preventDefault();
+        // console.log('Formdata: ', formData)
         setUpdateUserError(null);
         setUpdateUserSuccess(null);
         if (Object.keys(formData).length === 0) {
@@ -232,13 +233,7 @@ export default function DashProfile() {
                     </Alert>
                 )
             }
-            {
-                error && (
-                    <Alert color='failure' className='mt-5'>
-                        {error}
-                    </Alert>
-                )
-            }
+
             <Modal
                 show={showModal}
                 onClose={() => setShowModal(false)}
